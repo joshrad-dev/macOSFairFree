@@ -1,0 +1,15 @@
+[project]
+name = "macosfairfree"
+version = "0.1.0"
+description = "Offline SINF patching for iOS apps on Apple silicon Macs"
+readme = "README.md"
+authors = [{ name = "joshrad-dev", email = "josh@joshrad.dev" }]
+requires-python = ">=3.13"
+dependencies = ["cryptography>=43"]
+
+[project.scripts]
+macosfairfree = "macosfairfree:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"

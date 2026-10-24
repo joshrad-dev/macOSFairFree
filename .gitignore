@@ -1,0 +1,10 @@
+.venv/
+.DS_Store
+__pycache__/
+*.py[cod]
+*.ipa
+*.sinf
+*.bin
+credential*/
+*.egg-info/
+dist/
